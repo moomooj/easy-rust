@@ -1,41 +1,24 @@
-# Website
+# 🦀 Easy Rust
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Welcome to **Easy Rust** — a personal Rust learning site.
 
-### Installation
+This site serves as a public record of my journey learning the Rust programming language, based on the [Rust Book](https://doc.rust-lang.org/book/).
 
-```
-$ yarn
-```
+I'm currently studying Computer Science at **Douglas College**, and I created this space to organize, summarize, and share what I’ve learned.
 
-### Local Development
+Feel free to read, explore, and learn alongside me!
 
-```
-$ yarn start
-```
+--
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+This site is based on my notes and interpretations of the official
 
-### Build
+- [Rust Book](https://doc.rust-lang.org/book/)
 
-```
-$ yarn build
-```
+Other learning resources
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+- [Rust by Example](https://doc.rust-lang.org/rust-by-example/)
+- [Rustlings](https://github.com/rust-lang/rustlings)
 
-### Deployment
+## 💬 Feedback
 
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Feel free to open an issue or contact me if you find something incorrect or have suggestions!

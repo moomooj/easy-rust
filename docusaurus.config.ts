@@ -7,10 +7,8 @@ const config: Config = {
   tagline: "study Rust the Easy Way",
   favicon: "img/favicon.ico",
 
-  url: "https://your-docusaurus-site.example.com", //need to be github
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/",
+  url: "https://moomooj.github.io",
+  baseUrl: "/easy-rust/",
 
   organizationName: "moomooj",
   projectName: "easy-rust",
@@ -29,14 +27,13 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: undefined,
+          showLastUpdateAuthor: false,
+          showLastUpdateTime: false,
         },
         blog: {
           showReadingTime: true,
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
-          //need to be github
+          editUrl: undefined,
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -46,13 +43,9 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: "img/rust-social-card.png",
+    image: "rust-logo-black.svg",
     navbar: {
       title: "Easy Rust",
-      logo: {
-        alt: "Rust Logo",
-        src: "img/rust-logo.svg",
-      },
       items: [
         {
           type: "docSidebar",
@@ -62,7 +55,7 @@ const config: Config = {
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/your-username/easy-rust",
+          href: "https://github.com/moomooj/easy-rust",
           label: "GitHub",
           position: "right",
         },
@@ -85,10 +78,10 @@ const config: Config = {
           ],
         },
         {
-          title: "Links",
+          title: "Rust Resources",
           items: [
             {
-              label: "Rust Lang",
+              label: "Official Rust Site",
               href: "https://www.rust-lang.org/",
             },
             {
@@ -106,12 +99,12 @@ const config: Config = {
             },
             {
               label: "GitHub",
-              href: "https://github.com/your-username/easy-rust",
+              href: "https://github.com/moomooj/easy-rust",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Easy Rust.`,
+      copyright: `© ${new Date().getFullYear()} juyoungdev`,
     },
     prism: {
       theme: prismThemes.github,
